@@ -2,7 +2,7 @@ import secrets
 import string
 import argparse
 
-arser = argparse.ArgumentParser(description="Generate strong and complicated password")
+parser = argparse.ArgumentParser(description="Generate strong and complicated password")
 parser.add_argument('length', type=int, help='The length of the number')
 
 parser.add_argument(
